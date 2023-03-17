@@ -1,0 +1,184 @@
+
+/*Cuerpo*/
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+main {
+  background: blue;
+  margin-top: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+/*secciones*/
+
+#black-section {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+#about{
+  background: whitesmoke;
+    padding: 1rem;
+}
+
+#works{
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+#news {
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+#contact {
+  background: black;
+  padding: 1rem;
+}
+
+/*logo*/
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: whitesmoke;
+  padding: px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logoB {
+  font-weight: bold;
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+/*textos*/
+
+h1 {
+  font-size: 47px;
+  color: whitesmoke;
+  padding-top: 00px;
+  padding-bottom: 00px;
+  line-height: 1,5;
+  padding: 10px;
+  margin-top: 50px;
+  
+}
+
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  color:whitesmoke;
+}
+
+
+p {
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: dimgrey;
+  padding: 10px;
+
+}
+
+
+/*navegador*/
+
+#menu a {
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+  justify-content: space-evenly;
+  align-items: right;
+  padding: 0px;
+  margin-top: 15px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: right;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: whitesmoke;
+}
+
+
+form-container {
+  width: 100%;
+  max-width: 50px;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  color: white;
+
+}
+
+label {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+
+
+input[type="email"],
+
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: grey;
+  margin-top: 10px;
+  color: black;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
